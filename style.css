@@ -43,6 +43,7 @@ body{
     padding: 12.5px 16px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 section{
     /* background: url(./assets/hero-bg.png); */
@@ -59,6 +60,7 @@ section{
     background-color: rgba(255, 255, 255, 1);
     margin-bottom: 16px;
     margin-top: 123.5px;
+    cursor: pointer;
 }
 #banner .banner-text .t1{
     color: rgba(255, 255, 255, 1);
@@ -91,6 +93,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 #banner .banner-button{
     display: flex;
@@ -158,6 +161,10 @@ section{
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     padding: 69.5px 24px;
+    cursor: pointer;
+}
+#section2 .imgcon .imgin:hover{
+    background: rgb(111, 108, 108);
 }
 #section3{
     display: flex;
@@ -223,6 +230,7 @@ color: rgba(255, 255, 255, 1);
 font-size: 16px;
 font-weight: 600;
 margin-bottom: 16px;
+cursor: pointer;
 }
 #section4 .section4-txt{
     font-size: 16px;
