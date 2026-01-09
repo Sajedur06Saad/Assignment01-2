@@ -44,3 +44,109 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+section{
+    /* background: url(./assets/hero-bg.png); */
+    /* background-repeat: no-repeat;  */
+    
+}
+#banner .banner-btn button{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(70, 145, 101, 1);
+    border-style: none;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+    margin-top: 123.5px;
+}
+#banner .banner-text .t1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 72px;
+    /* font-weight: 700;
+    line-height: 84px; */
+}
+#banner .banner-text .t2{
+    color: rgba(48, 184, 104, 1);
+    font-size: 72px;
+    /* font-weight: 700;
+    line-height: 84px; */
+    margin-bottom: 16px;
+}
+#banner .banner-text{
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 32px;
+}
+#banner .banner-text p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#banner .banner-button button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner-button{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 179.5px;
+}
+#banner .banner-button .banner-button1{
+    border-radius: 4px;
+    background-color: rgba(70, 145, 101, 1);
+    border: none;
+    padding: 16.5px 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    gap: 0px 10px;
+}
+#banner .banner-button .banner-button2{
+    border-radius: 4px;
+    background-color: rgba(70, 145, 101, 0);
+    border: none;
+    padding: 16.5px 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    gap: 0px 10px;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+}
+#section2 .hp h1{
+    color: rgba(0, 25, 49, 1);
+    font-size: 48px;
+    font-weight: 700;
+}
+#section2 .hp p{
+    font-size: 16px;
+    font-weight: 400;  
+}
+#section2 .hp{
+    margin-top: 55px;
+    text-align: center;
+
+}
+#section2 .imgcon .imgin img{
+    border-radius: 50%;
+    background: rgba(249, 85, 85, 1);
+    padding: 5px;
+}
+#section2 .imgcon{
+    display: flex;
+    justify-content: center;
+}
